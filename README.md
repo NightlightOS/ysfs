@@ -21,7 +21,7 @@ Some bytes are left at the beginning in case you need to add machine code for ju
 | Time of last read/write | 4            | 0x008B           | Time the file was last read from/written to |
 | Time of last write      | 4            | 0x008F           | Time the file was last written to           |
 | Unused                  | 5            | 0x0093           | Unused                                      |
-| File contents           | 360          | 0x0097           | Contents of the file (depends on file type) |
+| File contents           | 360          | 0x0098           | Contents of the file (depends on file type) |
 
 ### file contents and file type
 
